@@ -12,4 +12,5 @@ RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list \
 && git clone https://github.com/ycdeng/dotfiles.git /usr/src/dotfiles \
 && make install
 
+
 WORKDIR /root
